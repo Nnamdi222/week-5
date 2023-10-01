@@ -1,0 +1,60 @@
+// Exercise 1: Calculate the Sum of two Nummbers 
+
+    m= (3+5)
+
+     //Exercise 2: Check if a number is even or odd
+     
+     m = int(input("Choose your number: "))
+     
+     if m % 2 == 0:
+             print("Even")
+             
+     else:
+         print("Odd")
+               
+          print(m)
+          
+          //Exercise 3:
+          write psedudo code that will perform the following.
+          
+          a) Read in 5 separate numbers.
+          b) Calculate the average of the five numbers.
+          c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+          d) Write out the results found from steps b and c with a message describing what they are
+          
+          # Exercise 3 A
+          
+          n1 = int(input("choose your first number: "))
+          n2 = int(input("choose your secod number: "))
+          n3 = int(input("choose your third number: "))
+          n4 = int(input("choose your fourth number: "))
+          n5 = int(input("choose your last number: "))
+          
+          # B
+          
+          
+          avg = int(n1+n2+n3+n4+n5)/5
+          print("The aerage of the selected numbers is "+Str(avg))
+          
+          
+          # C
+          
+          numbers = [n1,n2,n3,n4,n5] # <--the #'s the user inputed
+          
+          
+          
+             min = number[0]
+             max = numbers[0]
+             
+             for i in range(len(numbers)):
+                 if numbers [i]>max:
+                 max = numbers[i]
+               elif numbers [i] < min:
+                 min = numbers[i]
+                 
+               print("Min: ", min)
+               print("Max, ", max)
+               
+               
+  -----End-----------------------------
+  
